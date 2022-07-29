@@ -1,0 +1,24 @@
+question-1)write a blog on difference between document object and window objects?
+
+
+Document Object:
+ The document object represent a web page that is loaded in the browser. By accessing the document object, we can access 
+the element in the HTML page. With the help of document objects, we can add dynamic content to our web page. The document
+ object can be accessed with a window.document or just document.
+
+some methods of document are-
+1.getElementById(): It returns the object of the given ID. If no object with that id exists then it returns null
+2.getElementsByTagName(): It returns an object containing all the elements with the specified tag names in the document as objects.
+3.querySelector(): It returns the first element that matches a specified CSS selector(s) in the document.
+
+
+
+Window Object: The window object is the topmost object of the DOM hierarchy. It represents a browser window or frame that
+ displays the contents of the webpage. Whenever a window appears on the screen to display the contents of the document,
+ the window object is created. 
+
+some methods of windows are-
+1.alert(): It is used to display an alert box. It displays a specified message along with an OK button and is generally
+ used to make sure that the information comes through the user.
+2.setInterval(): It repeats a given function at every given time interval.
+3.setTimeout(): It executes a function, after waiting a specified number of milliseconds.
